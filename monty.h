@@ -53,5 +53,7 @@ void add(stack_t **, unsigned int);
 void nop(stack_t **, unsigned int);
 void monty_opcode(char *, stack_t **, unsigned int);
 void free_stack(void);
+void sub(stack_t **, unsigned int);
+
 
 #endif

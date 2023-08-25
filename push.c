@@ -26,3 +26,4 @@ void push(stack_t **head, unsigned int count)
 		exit(EXIT_FAILURE);
 	}
 }
+
