@@ -17,7 +17,7 @@ void rot1(stack_t **stack, unsigned int count)
 	head = c->next;
 	head->prev = NULL;
 
-	while (c->next !=NULL)
+	while (c->next != NULL)
 		c = c->next;
 	c->next = *stack;
 	(*stack)->next = NULL;
