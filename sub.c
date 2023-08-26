@@ -23,6 +23,6 @@ void sub(stack_t **index, unsigned int count)
 	flip = current->next->n - current->n;
 	pop(index, count);
 	pop(index, count);
-	current->n = flip;
+	add_node(index, flip);
 }
 

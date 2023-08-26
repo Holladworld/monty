@@ -19,6 +19,14 @@ void monty_opcode(char *op, stack_t **head, unsigned int count)
 		{"swap", swap},
 		{"add", add},
 		{"nop", nop},
+		{"sub", sub},
+		{"div", divid},
+		{"mod", mod},
+		{"mul", mul},
+		{"pchar", pchar},
+		{"pstr", pstr},
+		{"rot1", rot1},
+		{"rotr", rotr},
 		{NULL, NULL}
 	};
 	for (operator = 0; instruction[operator].opcode; operator++)

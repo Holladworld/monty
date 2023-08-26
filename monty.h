@@ -8,7 +8,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <sys/types.h>
-
+#include <sys/stat.h>
 
 
 /**
@@ -54,6 +54,15 @@ void nop(stack_t **, unsigned int);
 void monty_opcode(char *, stack_t **, unsigned int);
 void free_stack(void);
 void sub(stack_t **, unsigned int);
+void mul(stack_t **, unsigned int);
+void divid(stack_t **, unsigned int);
+void mod(stack_t **, unsigned int);
+void pchar(stack_t **, unsigned int);
+void pstr(stack_t **, unsigned int);
+void rot1(stack_t **, unsigned int);
+void rotr(stack_t **, unsigned int);
+void reverse(stack_t *);
+size_t print(stack_t *);
 
 
 #endif
